@@ -11,7 +11,7 @@ user = GithubUser('hdmtp')
 contribs = user.contributions()
 
 contribs_2021 = user.contributions(
-    start_date='2021-12-14', end_date=str(date.today()))
+    start_date='2021-12-21', end_date=str(date.today()))
 
 sc = f"**{datetime_NY[:10]}** | **{datetime_NY[11:26]}** | **{sum([day.count for day in contribs_2021.days])}**"
 
