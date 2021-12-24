@@ -23,6 +23,8 @@ jobs:
           pip install -r requirements.txt
       - name: Generate README.md(score) file
         run: python3 my_stats.py
+      - name: Print the server ip
+        run: python3 ip.py
       - name: Commit and Push new score.md to the repository
         uses: mikeal/publish-to-github-action@master
         env:
