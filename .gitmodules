@@ -1,0 +1,3 @@
+[submodule "WebScrapping"]
+	path = WebScrapping
+	url = https://github.com/hDmtP/WebScrapping.git
